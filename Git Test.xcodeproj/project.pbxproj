@@ -15,6 +15,7 @@
 		C6ACF8581B4232C500C5AE64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6ACF8571B4232C500C5AE64 /* Images.xcassets */; };
 		C6ACF85B1B4232C500C5AE64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6ACF8591B4232C500C5AE64 /* LaunchScreen.xib */; };
 		C6ACF8671B4232C500C5AE64 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6ACF8661B4232C500C5AE64 /* Git_TestTests.m */; };
+		C6ACF8721B423C1B00C5AE64 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = C6ACF8711B423C1B00C5AE64 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		C6ACF8601B4232C500C5AE64 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6ACF8651B4232C500C5AE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6ACF8661B4232C500C5AE64 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C6ACF8701B423C1B00C5AE64 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		C6ACF8711B423C1B00C5AE64 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				C6ACF8591B4232C500C5AE64 /* LaunchScreen.xib */,
 				C6ACF84E1B4232C500C5AE64 /* Git_Test.xcdatamodeld */,
 				C6ACF8471B4232C500C5AE64 /* Supporting Files */,
+				C6ACF8701B423C1B00C5AE64 /* Test.h */,
+				C6ACF8711B423C1B00C5AE64 /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6ACF8721B423C1B00C5AE64 /* Test.m in Sources */,
 				C6ACF84D1B4232C500C5AE64 /* AppDelegate.m in Sources */,
 				C6ACF84A1B4232C500C5AE64 /* main.m in Sources */,
 				C6ACF8531B4232C500C5AE64 /* ViewController.m in Sources */,
